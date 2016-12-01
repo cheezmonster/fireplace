@@ -1,0 +1,3 @@
+[submodule "pixellights"]
+	path = pixellights
+	url = https://github.com/andy-pi/pixellights.git
