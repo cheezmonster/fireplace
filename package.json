@@ -1,0 +1,22 @@
+{
+  "name": "fireplace",
+  "version": "1.0.0",
+  "description": "Control of LEDs in fireplace",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheezmonster/fireplace.git"
+  },
+  "author": "James Fowler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cheezmonster/fireplace/issues"
+  },
+  "homepage": "https://github.com/cheezmonster/fireplace#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
