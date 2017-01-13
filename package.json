@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/cheezmonster/fireplace#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "rpi-ws2801": "0.0.4"
   }
 }
