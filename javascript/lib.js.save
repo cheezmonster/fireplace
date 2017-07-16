@@ -1,6 +1,5 @@
 var leds = require("rpi-ws2801");
 
-
 //"connect"
 //Connect to LED string
 //--------------------------------------
@@ -53,25 +52,8 @@ var flicker = function(buffer, colour, max, min)
 };
 exports.flicker = flicker;
 
-//"rainbowElement"
+//"Rainbow"
 
-//var rainbowElement = function(i, N, j)
-//{
-  
-
-
-//"RainbowFill"
-
-var rainbowFill = function(buffer,N,j,L) 
+var rainbow = function(buffer, j)
 {
-  for (var i=0; i<N; i++) {
-    var k = 3*i;
-    
-    buffer[k] = Math.sin(2*Math.PI*(i/N + j/L)) * 127 +128;
-    buffer[k+1] = Math.sin(2*Math.PI*(i/N + j/L + 1/3)) * 127 + 128;
-    buffer[k+2] = Math.sin(2*Math.PI*(i/N + j/L + 2/3)) * 127 + 128;
-
-  };
-  return buffer;
-};
-exports.rainbowFill = rainbowFill;
+  
